@@ -16,4 +16,4 @@ let ageIsValid =Number.isInteger(currentAge);
 
 let randomNumber = (Math.random() * 20);
 let randomInteger = Math.floor(randomNumber);
-let randomUserID = Number.parseInt(randomInteger, 10);
+let randomUserID = randomInteger +  10;
