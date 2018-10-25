@@ -14,3 +14,5 @@ let ageIsValid =Number.isInteger(currentAge);
 
 //contains a random number greater than or equal to 0 and less than 20
 
+let randomNumber = (Math.random() * 20)
+let randomInteger = randomNumber.floor
